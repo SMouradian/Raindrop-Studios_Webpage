@@ -1,3 +1,4 @@
+/* Animated-Text uses the @keyframes feature to animate the color change */
 .Animated-Text {
     font-size: 2em;
     animation: color-change 3s infinite alternate;
@@ -12,12 +13,12 @@
     }
 }
 
-
+/* Background for the entire welcome page (currently set to black) */
 body {
     background-color: rgb(0, 0, 0);
 }
 
-
+/* Button features used for the nav-bar. Upon click, user will be taken to a new page */
 .button {
     background-color: #5f5f5f;
     color: #ffffff;
@@ -37,8 +38,25 @@ body {
     color: #ffffff;
 }
 
-.Directory {
+/* Connected to nav-bar element, which uses @media */
+#Directory {
     overflow: hidden;
+    position: fixed;
+    top: 14%;
+    width: 100%;
+}
+
+/* A subsection of the home page with information regarding the story/concept of Mōri */
+/* NOTE - This subsection will also include a gameplay video in the future */
+#MōriDescription {
+    color: white;
+}
+
+@media (min-wdith: 768px) {
+    .nav-bar {
+        position: static;
+        width: auto;
+    }
 }
 
 .nav-bar {
@@ -49,10 +67,27 @@ body {
     justify-content: center;
 }
 
-
+/* WelcomeHeader is the main banner at the top of the page */
 #WelcomeHeader {
     color: white;
     display: flex;
     flex-direction: column;
     align-items: normal;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+
+    position: fixed;
+    top: 1%;
+    width: 97%;
+
+    background: linear-gradient(to right, hsl(0, 0%, 15%), hsl(204, 2%, 55%)); 
+    border: 5px solid hsl(0, 0%, 100%);
+    border-radius: 20px;
+    outline-offset: 0px;
+    
+    padding: 10px;
+    z-index: 100;
 }
