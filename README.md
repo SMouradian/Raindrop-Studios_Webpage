@@ -13,4 +13,7 @@
 </div>
 <br>
 <div>
-    LINK TO WEBPAGE: [Raindrop Studios](https://smouradian.github.io/Raindrop-Studios_Webpage/)
+LINK TO WEBPAGE:
+
+[Raindrop Studios](https://smouradian.github.io/Raindrop-Studios_Webpage/)
+</div>
