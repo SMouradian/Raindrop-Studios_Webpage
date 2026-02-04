@@ -4,6 +4,12 @@
     animation: color-change 3s infinite alternate;
 }
 
+.AU-TeamMembers {
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    margin: 30px;
+}
+
 @keyframes color-change {
     0% {
         color: rgb(255, 255, 255);
@@ -46,7 +52,7 @@ body {
 
 /* A subsection of the home page with information regarding the story/concept of Mōri */
 /* NOTE - This subsection will also include a gameplay video in the future */
-#MōriDescription {
+#AU-Description {
     background-color: white;    
     box-sizing: border-box;
     text-align: center;
@@ -55,7 +61,7 @@ body {
     margin: 30px;
 }
 
-.MōriSubsection {
+.AU-Subsection {
     color: rgb(0, 0, 0);
     background: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(255, 255, 255));
     border: 5px solid rgb(0, 0, 0);
@@ -82,7 +88,7 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-/* WelcomeHeader is the main banner at the top of the page */
+/* WelcomeHeader is the main banner at the top of every page */
 #WelcomeHeader {
     color: white;
     display: flex;
