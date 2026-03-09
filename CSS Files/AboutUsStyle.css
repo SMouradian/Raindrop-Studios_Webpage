@@ -1,7 +1,7 @@
 /* Animated-Text uses the @keyframes feature to animate the color change */
 .Animated-Text {
     font-size: 2em;
-    animation: color-change 3s infinite alternate;
+    animation: color-change 1s infinite alternate;
 }
 
 .AU-TeamMembers {
@@ -59,6 +59,9 @@ body {
     border-radius: 25px;
     padding: 5px;
     margin: 30px;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .AU-Subsection {
@@ -84,8 +87,10 @@ body {
 }
 
 .SubsectionClass {
-    margin: 30px;
-    font-family: 'Arial', sans-serif;
+    margin: 40px;
+    font-family: 'Times-New-Roman';
+    font-size: 20px;
+    border-radius: 20px;
 }
 
 /* WelcomeHeader is the main banner at the top of every page */
@@ -106,4 +111,12 @@ body {
     
     z-index: 100px;
     margin: 30px;
+}
+
+/* Image-Adjustment feature */
+.image-left {
+    float: left;
+    margin-right: 20px;
+    margin-left: 40px;
+    max-width: 300px;
 }

@@ -1,7 +1,7 @@
 /* Animated-Text uses the @keyframes feature to animate the color change */
 .Animated-Text {
     font-size: 2em;
-    animation: color-change 3s infinite alternate;
+    animation: color-change 1s infinite alternate;
 }
 
 @keyframes color-change {
@@ -57,7 +57,7 @@ body {
 
 .HomeSubsection {
     color: rgb(0, 0, 0);
-    background: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(255, 255, 255));
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(247, 55, 55));
     border: 5px solid rgb(0, 0, 0);
     outline: rgb(0, 0, 0);
     outline-offset: 0px;
@@ -78,8 +78,13 @@ body {
 }
 
 .SubsectionClass {
-    margin: 30px;
-    font-family: 'Arial', sans-serif;
+    margin: 40px;
+    font-family: 'Times-New-Roman';
+    font-size: 20px;
+    background: linear-gradient(to right, hsl(0, 100%, 77%), hsl(0, 0%, 100%)); 
+    border: 20px solid hsl(0, 0%, 10%);
+    border-radius: 50px;
+
 }
 
 /* WelcomeHeader is the main banner at the top of every page */
