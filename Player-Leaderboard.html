@@ -1,29 +1,54 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-    <meta charset = "UTF8">
-    <meta name = "viewport" content = "width=device-width", initial-scale = 1.0>
-    <title> RainDrop Studios</title>
-    <link rel = "stylesheet" href = "CSS Files/Player-Leaderboard.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard — Mōri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS Files/Player-Leaderboard.css">
+    <link rel="icon" href="favicon.ico">
 </head>
-
 <body>
-    <div id = "WelcomeHeader">
-        <h1 class = "Animated-Text">Raindrop Studios Presents: <i>Mōri</i></h1>
-        <nav id = "Directory">
-        <ul class = "nav-bar">
-            <li><a href = "index.html" class = "button">Home</a></li>
-            <li><a href = "AboutUs.html" class = "button">About Us</a></li>
-            <li><a href = "Mōri.html" class = "button">Mōri</a></li>
-            <li><a href = "Player-Leaderboard.html" class = "button">Leaderboard</a></li>
-        </ul>
-    </nav>
-    </div>
 
-    <div id = "Leaderboard-Description">
-        <h1 class = "Leaderboard-Subsection">Mōri Leaderboard (Coming Soon)</h1>
-        <p class = "SubsectionClass" style = "font-size: 35px;">
-        </p>
-    </div>
+    
+    <header id="WelcomeHeader">
+        <h1 class="Animated-Text">Raindrop Studios Presents: <em>Mōri</em></h1>
+        <nav id="Directory">
+            <ul class="nav-bar">
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="AboutUs.html" class="button">About Us</a></li>
+                <li><a href="Mōri.html" class="button">Mōri</a></li>
+                <li><a href="Player-Leaderboard.html" class="button">Leaderboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main id="Leaderboard-Description">
+        <h2 class="section-title fade-in">Player Leaderboard</h2>
+        </div>
+        <div class="leaderboard-wrap glass-card">
+            <table class="leaderboard-table" aria-label="Top 10 player scores">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Rounds</th>
+                        <th>Kills</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-body">
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    
+    <button id="scroll-top" aria-label="Back to top">&#8679;</button>
+
+    <script src="webFeatureHelp.js"></script>
 </body>
 </html>

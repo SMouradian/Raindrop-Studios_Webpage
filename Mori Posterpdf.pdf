@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mōri — The Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS Files/MōriStyle.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+    
+    <header id="WelcomeHeader">
+        <h1 class="Animated-Text">Raindrop Studios Presents: <em>Mōri</em></h1>
+        <nav id="Directory">
+            <ul class="nav-bar">
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="AboutUs.html" class="button">About Us</a></li>
+                <li><a href="Mōri.html" class="button">Mōri</a></li>
+                <li><a href="Player-Leaderboard.html" class="button">Leaderboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main id="Mōri-Description">
+
+        <!-- Story Section -->
+        <section class="story-section">
+            <p class="story-year fade-in">&#x2605; &nbsp; THE YEAR IS 1578, AND JAPAN IS AT WAR &nbsp; &#x2605;</p>
+            <div class="story-card fade-in glass-card">
+                <p>
+                    You are <strong>Mōri Katsuko</strong>, a samurai who has been called by his daimyo to
+                    aid the Ikko-Ikki clan at their capital city. Upon your arrival, however, you find the
+                    castle has been sieged by the powerful <strong>Oda clan</strong>.
+                </p>
+                <p>
+                    <em>Mōri</em> is a <strong>first-person combat game</strong> set within the Sengoku
+                    period of Japanese history. It takes inspiration from classic arcade game design while
+                    blending modern combat features found in titles such as <em>Chivalry: Medieval Warfare</em>,
+                    <em>DOOM</em>, <em>Ghost of Tsushima</em>, <em>Mordhau</em>, <em>Ninja Gaiden</em>,
+                    and <em>Ultrakill</em>.
+                </p>
+                <p>
+                    <em>Mōri</em> is a <strong>round-based wave survival game</strong> — survive the
+                    onslaught of enemy waves and earn money to spend on upgrades and consumables between
+                    rounds. The longer you survive, the more of the map opens up to explore and defend.
+                    Top survivors earn a spot on our <u>Player Leaderboard</u>, showcasing the ten
+                    highest scores.
+                </p>
+                <p class="story-cta">
+                    Will you prevail against the Oda clan's army — or bring shame to your clan and
+                    dishonor to your family?
+                </p>
+            </div>
+        </section>
+
+        
+        <div class="inspiration-strip fade-in">
+            <p>
+                Inspired by &nbsp;
+                <span>Chivalry: Medieval Warfare</span> &nbsp;·&nbsp;
+                <span>DOOM</span> &nbsp;·&nbsp;
+                <span>Ghost of Tsushima</span> &nbsp;·&nbsp;
+                <span>Mordhau</span> &nbsp;·&nbsp;
+                <span>Ninja Gaiden</span> &nbsp;·&nbsp;
+                <span>Ultrakill</span>
+            </p>
+        </div>
+
+        
+        <section class="updates-section">
+            <h2 class="section-title fade-in">Recent Updates</h2>
+            <div class="updates-grid">
+                <div class="update-item fade-in glass-card">Movement speed increased for player and enemy mobs</div>
+                <div class="update-item fade-in glass-card">Added a dash mechanic with VFX and SFX</div>
+                <div class="update-item fade-in glass-card">Added new combat animations with stylized SFX</div>
+                <div class="update-item fade-in glass-card">Added a parry mechanic with its own animation, VFX, and SFX</div>
+                <div class="update-item fade-in glass-card">Added a prototype inventory system</div>
+                <div class="update-item fade-in glass-card">Added a mini-map with functional enemy and player dots</div>
+                <div class="update-item fade-in glass-card">Added an interactive banner used to start and end rounds</div>
+                <div class="update-item fade-in glass-card">Added a working in-game and main-menu settings page</div>
+                <div class="update-item fade-in glass-card">Updated the main menu</div>
+                <div class="update-item fade-in glass-card">Updated the game-over and victory menu screens</div>
+            </div>
+        </section>
+
+       
+        <section class="gallery-section">
+            <h2 class="section-title fade-in">Game Snapshots</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in" data-caption="Player POV with visible mini-map prototype">
+                    <img class="gallery-img" src="Game Photos/Mori.png"
+                         alt="Player POV with visible mini-map prototype">
+                </div>
+                <div class="gallery-item fade-in" data-caption="Tense first-person combat">
+                    <img class="gallery-img" src="Game Photos/Mori-1.png"
+                         alt="Player engaged in Mōri's tense and strategic combat">
+                </div>
+                <div class="gallery-item fade-in" data-caption="Main menu">
+                    <img class="gallery-img" src="Game Photos/Mori-2.png"
+                         alt="Mōri's main menu snapshot">
+                </div>
+                <div class="gallery-item fade-in" data-caption="Parry mechanic in action">
+                    <img class="gallery-img" src="Game Photos/Mori-3.png"
+                         alt="Mōri's parry mechanic in use as the player blocks an enemy attack">
+                </div>
+                <div class="gallery-item fade-in" data-caption="In-game inventory system">
+                    <img class="gallery-img" src="Game Photos/Mori-4.png"
+                         alt="Mōri's in-game inventory system">
+                </div>
+                <div class="gallery-item fade-in" data-caption="Interactive mission banner — clear all enemies before the next round begins">
+                    <img class="gallery-img" src="Game Photos/Mori-5.png"
+                         alt="Mōri's interactive mission banner preventing the player from starting the next round before killing all enemies">
+                </div>
+                <div class="gallery-item fade-in" data-caption="Dash mechanic in action">
+                    <img class="gallery-img" src="Game Photos/Mori-Dash-Edit-Gif.gif"
+                         alt="Mōri's dash mechanic as the player sprints toward enemies">
+                </div>
+            </div>
+        </section>
+
+        <!-- Poster -->
+        <section class="poster-section">
+            <h2 class="section-title fade-in">Official Poster</h2>
+            <div class="poster-container fade-in">
+                <img
+                    src="Mori%20Poster.png"
+                    alt="Mōri — Official Game Poster"
+                    class="poster-img"
+                />
+            </div>
+        </section>
+
+    </main>
+
+
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <button id="lightbox-close" aria-label="Close">&times;</button>
+        <div class="lightbox-img-wrap">
+            <button id="lightbox-prev" class="lightbox-btn" aria-label="Previous">&#8592;</button>
+            <img id="lightbox-img" src="" alt="">
+            <button id="lightbox-next" class="lightbox-btn" aria-label="Next">&#8594;</button>
+        </div>
+        <p id="lightbox-caption"></p>
+    </div>
+
+    
+    <button id="scroll-top" aria-label="Back to top">&#8679;</button>
+
+    <script src="webFeatureHelp.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mōri — Raindrop Studios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS Files/style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+    <header id="WelcomeHeader">
+        <h1 class="Animated-Text">Raindrop Studios Presents: <em>Mōri</em></h1>
+        <nav id="Directory">
+            <ul class="nav-bar">
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="AboutUs.html" class="button">About Us</a></li>
+                <li><a href="Mōri.html" class="button">Mōri</a></li>
+                <li><a href="Player-Leaderboard.html" class="button">Leaderboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-logo" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Mōri logo">
+                    <defs>
+                        <clipPath id="circle-clip">
+                            <circle cx="50" cy="50" r="50"/>
+                        </clipPath>
+                    </defs>
+                    <circle cx="50" cy="50" r="50" fill="#c0392b"/>
+                    <g clip-path="url(#circle-clip)">
+                        <!-- Top arc / topknot -->
+                        <path d="M 18 41 Q 50 1 82 41" stroke="white" stroke-width="11" fill="none" stroke-linecap="round"/>
+                        <!-- Centre circle -->
+                        <circle cx="50" cy="52" r="12" fill="white"/>
+                        <!-- Bottom-left circle -->
+                        <circle cx="30" cy="75" r="11" fill="white"/>
+                        <!-- Bottom-right circle -->
+                        <circle cx="70" cy="75" r="11" fill="white"/>
+                    </g>
+                </svg>
+            </div>
+            <p class="hero-eyebrow">Raindrop Studios &nbsp;·&nbsp; CS 426 Senior Project &nbsp;·&nbsp; Spring 2026</p>
+            <h1 class="hero-game-title">MŌRI</h1>
+            <div class="hero-divider">
+                <span></span>
+                <span class="hero-kanji">侍</span>
+                <span></span>
+            </div>
+            <p class="hero-tagline"><br>A First-Person Samurai Survival Game</p>
+            <p class="hero-period">1578 &nbsp;·&nbsp; Sengoku Period Japan &nbsp;·&nbsp; Survive the Oda Clan</p>
+            <div class="hero-buttons">
+                <a href="Mōri.html" class="hero-btn primary">Explore the Game</a>
+                <a href="Player-Leaderboard.html" class="hero-btn secondary">Leaderboard</a>
+            </div>
+        </div>
+    </section>
+
+    <main id="HomeDescription">
+
+        <!-- About This Project -->
+        <h2 class="section-title fade-in">About This Project</h2>
+        <div class="about-block fade-in glass-card">
+            <p>
+                We are <em>Team 05</em>, also known as <em>Raindrop Studios</em> We're a four person
+                development team from the <em>Computer Science 426: Senior Project</em> course at
+                the <b>University of Nevada, Reno</b>, Spring 2026 semester.
+            </p>
+            <p>
+                Our project is <em>Mōri</em>: a first-person, round-based wave survival game set
+                during Japan's Sengoku period. Over the course of this semester we've built everything
+                from the ground up in Unity — combat systems, enemy AI, menus, sound, particle effects,
+                and more. Visit the <strong><a href="Mōri.html">Mōri</a></strong> page to see the
+                full game breakdown, or check the
+                <strong><a href="Player-Leaderboard.html">Leaderboard</a></strong> to see top scores.
+            </p>
+        </div>
+
+        
+        <h2 class="section-title fade-in">The Team</h2>
+        <div class="team-grid">
+            <a href="AboutUs.html#simeon" class="team-card fade-in glass-card">
+                <h3 class="team-name">Simeon Dimitrov</h3>
+                <p class="team-role">Combat System &amp; Animations</p>
+                <span class="team-card-cta">View Profile →</span>
+            </a>
+            <a href="AboutUs.html#samuel" class="team-card fade-in glass-card">
+                <h3 class="team-name">Samuel Mouradian</h3>
+                <p class="team-role">Map &amp; Scene Design · Player Mechanics</p>
+                <span class="team-card-cta">View Profile →</span>
+            </a>
+            <a href="AboutUs.html#arvind" class="team-card fade-in glass-card">
+                <h3 class="team-name">Arvind Pagidi</h3>
+                <p class="team-role">Main Menu · Pause Screen · Inventory System</p>
+                <span class="team-card-cta">View Profile →</span>
+            </a>
+            <a href="AboutUs.html#aidan" class="team-card fade-in glass-card">
+                <h3 class="team-name">Aidan Swan</h3>
+                <p class="team-role">Movement · Menu UI · Sound &amp; Particle Effects</p>
+                <span class="team-card-cta">View Profile →</span>
+            </a>
+        </div>
+
+        
+        <h2 class="section-title fade-in">Acknowledgments</h2>
+        <div class="credits-block fade-in glass-card">
+            <p>
+                We could not have done this without the guidance of our instructors and teaching assistants:<br>
+                <strong>Dr. David Feil-Seifer &nbsp;|&nbsp; Vinh Le &nbsp;|&nbsp; Richie White (TA) &nbsp;|&nbsp; Stosh Peterson (TA)</strong>
+            </p>
+            <p style="margin-top:14px;">
+                We also extend our gratitude to our external advisor, <strong><em>Levi Scully</em></strong> —
+                a Master of Engineering graduate from UNR and VR developer at the
+                <u>CSE Software Systems Lab</u> — for his invaluable real-world perspective throughout the semester.
+            </p>
+        </div>
+
+    </main>
+
+    <section class="trailer-section">
+        <h2 class="section-title fade-in">Trailer</h2>
+        <div class="trailer-card fade-in glass-card">
+            <p class="trailer-label">Watch our official game trailer</p>
+            <div class="trailer-video-wrap">
+                <iframe
+                    src="https://www.youtube.com/embed/uz4JGQvd75o"
+                    title="Mōri — Official Trailer"
+                    frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <button id="scroll-top" aria-label="Back to top">&#8679;</button>
+
+    <script src="webFeatureHelp.js"></script>
+</body>
+</html>

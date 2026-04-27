@@ -1,58 +1,141 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-    <meta charset = "UTF8">
-    <meta name = "viewport" content = "width=device-width", initial-scale = 1.0>
-    <title> RainDrop Studios</title>
-    <link rel = "stylesheet" href = "CSS Files/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us — Raindrop Studios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS Files/AboutUsStyle.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    <div id = "WelcomeHeader">
-        <h1 class = "Animated-Text">Raindrop Studios Presents: <i>Mōri</i></h1>
-        <nav id = "Directory">
-        <ul class = "nav-bar">
-            <li><a href = "index.html" class = "button">Home</a></li>
-            <li><a href = "AboutUs.html" class = "button">About Us</a></li>
-            <li><a href = "Mōri.html" class = "button">Mōri</a></li>
-            <li><a href = "Player-Leaderboard.html" class = "button">Leaderboard</a></li>
-        </ul>
-    </nav>
-    </div>
 
-    <div id = "HomeDescription">
-        <h1 class = "HomeSubsection">Welcome to Team 05's Webpage</h1>
-        <p class = "SubsectionClass">
+    <header id="WelcomeHeader">
+        <h1 class="Animated-Text">Raindrop Studios Presents: <em>Mōri</em></h1>
+        <nav id="Directory">
+            <ul class="nav-bar">
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="AboutUs.html" class="button">About Us</a></li>
+                <li><a href="Mōri.html" class="button">Mōri</a></li>
+                <li><a href="Player-Leaderboard.html" class="button">Leaderboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="AU-Description">
+
+        <h2 class="section-title fade-in">The Team Behind Mōri</h2>
+
+        <p class="intro-text fade-in">
+            Don't you just hate it when you can't
+            connect a name to a face? Well, you don't have to worry about
+            that when talking to us!
             <br><br>
-            We are Team 05, also known as <i>Raindrop Studios</i>. We are from the <i>Computer
-            Science 426 - Senior Project</i> course at the <i><u>University of Nevada,
-            Reno</u></i> for the Spring 2026 school semester.
-            <br><br><br><br>
-            The individuals part of this team are:
-            <br><i><b>
-                Simeon Dimitrov
-            <br>
-                Samuel Mouradian
-            <br>
-                Arvind Pagidi
-            <br>
-                Aidan Swan
-            </b></i><br><br><br>
-            We could not have done any of this without the guidance of our instructors and teaching
-            assistants:
-            <br><b><i>
-                Dr. David Feil-Seifer  |  Vinh Le  |  Richie White (TA)  |  Stosh Peterson (TA)
-            </b></i><br><br><br>
-            We also would like to thank <b><i>Levi Scully</b></i>, our team's external
-            advisor, who is a Master of Engineering graduate from the university, as well as
-            a VR developer at the university's <u>CSE Software Systems Lab</u>. If you would
-            like to know more about the rest of the team, feel free to access the <b>[About
-            Us]</b> tab at the top of this webpage.
+            The most important thing to the team at <i>Raindrop Studios</i> is
+            transparency. Whether it is for our latest game development updates,
+            or getting to know new people, we believe you all should know the truth.
             <br><br>
-            To know more about <i>Mōri</i>, please feel free to access the <b>[Mōri]</b> tab at
-            the top of this webpage. You can also check out the current leaderboard by clicking
-            the <b>[Leaderboard]</b> tab at the top of this page.
-            <br><br>
+            So, why not meet the team?
         </p>
-    </div>
+
+        <div class="member-cards-grid">
+
+           
+            <article id="simeon" class="member-card fade-in glass-card">
+                <div class="member-header">
+
+                    <div>
+                        <h3 class="member-name">Simeon Dimitrov</h3>
+                        <span class="member-role">Combat System &amp; Animations</span>
+                    </div>
+                </div>
+                <p class="member-bio">
+                    Hello, my name is Simeon,
+            and I am a fourth-year CSE student at the <u>University of Nevada, Reno</u>. My
+            main focus regarding <i>Mōri’s</i> development has been the implementation of the
+            <b>combat system</b> and the <b>animations</b> associated with it. My gaming journey
+            started with a rip of <i>Call of Duty (2003)</i> that my dad had on our family computer
+            and evolved to include various other genres over the years, from MOBAs like <i>League of
+            Legends</i> to survival games like <i>Subnautica</i>. My recent rotation includes <i>Lies
+            of P</i> and <i>Elden Ring</i>, which heavily inspire me to create robust and satisfying
+            combat mechanics. Outside of the virtual world, I spend my time rock climbing and going to
+            as many live shows as my wallet allows. This is the first game I have had the privilege to
+            work on, and I am excited to see where this project goes!
+                </p>
+            </article>
+
+           
+            <article id="samuel" class="member-card fade-in glass-card">
+                <div class="member-header">
+
+                    <div>
+                        <h3 class="member-name">Samuel Mouradian</h3>
+                        <span class="member-role">Map &amp; Scene Design · Player Mechanics</span>
+                    </div>
+                </div>
+                <p class="member-bio">
+                    Heyo, everybody! My name Sam, and I
+            am one of the developers working on <i>Mōri</i>. I am a senior at the <u>University of Nevada,
+            Reno</u> and am currently pursuing a bachelor's in Computer Science & Engineering, as well as
+            a minor in Journalism and Mathematics. I plan to use my credentials for video game journalism
+            and video game development, but I would also like to prusue web development. The reason I wanted
+            to make <i>Mōri</i> with Aidan, Arvind, and Simeon is because I have always been fascinated with
+            video games. Working with my colleagues has allowed me to get hands on experience with basic game
+            development using the Unity engine. As one of <i>Mōri's</i> developers, I am responsible for the
+            <b>map and scene designs</b>, as well as the <b>player mechanics</b> our users will be introcuded to.
+                </p>
+            </article>
+
+            
+            <article id="arvind" class="member-card fade-in glass-card">
+                <div class="member-header">
+
+                    <div>
+                        <h3 class="member-name">Arvind Pagidi</h3>
+                        <span class="member-role">Main Menu · Pause Screen · Inventory System</span>
+                    </div>
+                </div>
+                <p class="member-bio">
+                    Hello, my name is Arvind Pagidi, I’m currently a majoring in Computer Science and Engineering at the 
+            <u>University of Nevada, Reno</u>. For the game <i>Mori</i>, I help build  the initial <b>main menu</b> 
+            and <b>pause screen</b>. I’ve also been mainly focusing on building the <b>inventory system</b> 
+            for our game. Video games have always been a strong passion for ever since I was a little kid. I remember 
+            my first video game that I’ve played was <i>Super Mario Galaxy</i>. Ever since I’ve been in love with video games 
+            playing a whole genre of games like <i>The Legend of Zelda</i>, <i>Call of Duty</i>, and <i>Spider-Man</i>. Getting 
+            to build this game and learning the Unity game engine has been a fun experience and hope that I continue to 
+            make small fun games in the future. I also like to play golf, go skiing, and watch movies and tv shows. My 
+            favorite show is <i>Friends</i>.
+                </p>
+            </article>
+
+            
+            <article id="aidan" class="member-card fade-in glass-card">
+                <div class="member-header">
+
+                    <div>
+                        <h3 class="member-name">Aidan Swan</h3>
+                        <span class="member-role">Movement · Menu UI · Sound &amp; Particle Effects</span>
+                    </div>
+                </div>
+                <p class="member-bio">
+                     Hello! My name is Aidan, and I’m a 4th-year CSE student at the <u>University of Nevada, Reno</u> and another one 
+            of the developers for <i>Mori</i>. I’ll be graduating in the fall of 2026 with a bachelor's in Computer Science & 
+            Engineering, including a minor in Mathematics. The idea of making a game has also been interesting to me. When 
+            I was younger, I modded my Wii and would write my own code to use in games like <i>Mario Kart</i>, and this feels 
+            similar to that experience. During my free time, I enjoy music production and lifting. Working with this group 
+            has been great for getting experience with the Unity engine and collaborating on a large scaled project. I’ve 
+            been responsible for the <b>movement, combat system, Menu UI, scene building, sound effects</b>, and <b>particle 
+            effects</b>.
+                </p>
+            </article>
+
+        </div>
+    </main>
+
+    <button id="scroll-top" aria-label="Back to top">&#8679;</button>
+
+    <script src="webFeatureHelp.js"></script>
 </body>
 </html>
